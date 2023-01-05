@@ -9,7 +9,7 @@ export default function Markdwon(props) {
 	return (
 		<MdEditorLite
 			value={value}
-			style={{ height: "600px" }}
+			style={{ height: "900px" }}
 			onChange={({ html, text }, event) => onChange(text)}
 			htmlClass={"wmde-markdown wmde-markdown-color"}
 			renderHTML={text =>
